@@ -3,7 +3,6 @@ import { Grommet } from "grommet";
 import "./App.css";
 import Home from "./pages/home/Home";
 import NoMatch from "./pages/NoMatch";
-import NavBar from "./components/layout/NavBar";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import Stream from "./pages/stream/stream";
+import NavBar from "./components/layout/SignedInNavBar";
 
 const theme = {
   global: {

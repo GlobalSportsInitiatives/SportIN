@@ -15,7 +15,7 @@ const Home = () => (
     </Box>
     <Box></Box>
     <header className="home-header" justify="start">
-      <h1>The Last Sports App You'll Ever Need</h1>
+      <h1>SportIn</h1>
       <p>Ready to catch the action?</p>
       <SportsContentMenu />
     </header>
