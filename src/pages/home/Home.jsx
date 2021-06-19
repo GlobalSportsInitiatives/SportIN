@@ -1,5 +1,4 @@
 import { Box, Carousel, Image } from "grommet";
-import longLogo from "../../assets/sportsVisionLongLogo.svg";
 import mahomes from "../../assets/mahomie.jpg";
 import lebron from "../../assets/Lebron.png";
 import player from "../../assets/Picture6.png";
@@ -11,7 +10,6 @@ const Home = () => (
       <Carousel fill alignSelf="center">
         <Image src={lebron} />
         <Image fit="contain" src={player} />
-        <Image fit="cover" src={longLogo} />
         <Image fit="cover" src={mahomes} />
       </Carousel>
     </Box>

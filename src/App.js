@@ -1,7 +1,6 @@
 import React from "react";
 import { Grommet } from "grommet";
 import "./App.css";
-import Notes from "./components/Notes";
 import Home from "./pages/home/Home";
 import NoMatch from "./pages/NoMatch";
 import NavBar from "./components/layout/NavBar";
@@ -11,6 +10,7 @@ import {
   Redirect,
   Route,
 } from "react-router-dom";
+import Stream from "./pages/stream/stream";
 
 const theme = {
   global: {
@@ -37,11 +37,11 @@ function App() {
             <Route exact path="/home">
               <Home />
             </Route>
+            <Route exact path="/stream">
+              <Stream />
+            </Route>
             <Route exact path="/">
               <Redirect to="/home" />
-            </Route>
-            <Route path="/notes">
-              <Notes />
             </Route>
             <Route path="*">
               <NoMatch />

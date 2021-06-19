@@ -1,12 +1,10 @@
 import { Box, Card, CardBody, CardFooter, Grid, Image, Text } from "grommet";
-import logoSmall from "../../assets/SportsVisionLogoSmall.png";
 import football from "../../assets/Football.jpg";
 
 export const SportsContentMenu = () => {
   return (
     // header
     <Box>
-      <Image src={logoSmall} />
       <Box pad="large" background="dark-1" height="100%">
         <Grid gap="medium" columns={{ count: "fit", size: "small" }}>
           <FootballCard />

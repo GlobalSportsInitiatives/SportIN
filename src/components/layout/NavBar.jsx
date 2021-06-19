@@ -57,11 +57,8 @@ const NavLinks = () => {
 
 const navItems = [
   { label: "Home", href: "/home" },
-  { label: "NFL", href: "/notes" },
-  { label: "NBA", href: "#" },
-  { label: "MLB", href: "#" },
-  { label: "MLS", href: "#" },
-  { label: "NHL", href: "# " },
+  { label: "Stream", href: "/stream" },
+  { label: "Wallet", href: "/wallet" },
 ];
 
 const AccountMenu = () => {
