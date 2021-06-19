@@ -1,7 +1,6 @@
 import React from "react";
 import { Grommet } from "grommet";
 import "./App.css";
-import { withAuthenticator } from "@aws-amplify/ui-react";
 import Notes from "./components/Notes";
 import Home from "./pages/home/Home";
 import NoMatch from "./pages/NoMatch";
@@ -18,7 +17,7 @@ const theme = {
     colors: {
       brand: "#232b2b",
       "accent-1": "#FFFFFF",
-      focus: '#ff4040',
+      focus: "#ff4040",
     },
     font: {
       family: "Roboto",
@@ -69,4 +68,4 @@ function App() {
 }
 */
 
-export default withAuthenticator(App);
+export default App;
