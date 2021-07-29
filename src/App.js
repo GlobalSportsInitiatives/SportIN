@@ -11,7 +11,6 @@ import {
 } from "react-router-dom";
 import Stream from "./pages/stream/stream";
 import NavBar from "./components/layout/SignedInNavBar";
-import { withAuthenticator } from "@aws-amplify/ui-react";
 
 const theme = {
   global: {
@@ -69,4 +68,4 @@ function App() {
 }
 */
 
-export default withAuthenticator(App);
+export default App;

@@ -4,7 +4,6 @@ import { Notification, Search, User } from "grommet-icons";
 import "./SignedInNavBar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/sportsVisionLogo_edit.svg";
-import { AmplifySignOut } from "@aws-amplify/ui-react";
 
 const NavigationContainer = (props) => (
   <Box
@@ -42,7 +41,6 @@ const SignedInNavBar = () => (
       <Anchor color="light-1" icon={<Notification />} onClick={() => {}} />
       <AccountMenu />
     </Nav>
-    <AmplifySignOut />
   </NavigationContainer>
 );
 
