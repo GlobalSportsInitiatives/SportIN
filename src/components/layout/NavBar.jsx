@@ -1,7 +1,7 @@
 import React from "react";
 import { Anchor, Avatar, Box, Image, Menu, Nav } from "grommet";
 import { Notification, Search, User } from "grommet-icons";
-import "./SignedInNavBar.css";
+import "./NavBar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/sportsVisionLogo_edit.svg";
 
@@ -20,7 +20,7 @@ const NavigationContainer = (props) => (
   />
 );
 
-const SignedInNavBar = () => (
+const NavBar = () => (
   <NavigationContainer className="sticky-nav">
     <Box direction="row" align="center" gap="small">
       <Link id="logoLink" to={`/home`} title="home">
@@ -77,4 +77,4 @@ const menuItems = [
   { label: "Sign Out", onClick: () => {} },
 ];
 
-export default SignedInNavBar;
+export default NavBar;

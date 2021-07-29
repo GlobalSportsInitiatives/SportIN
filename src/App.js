@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import Stream from "./pages/stream/stream";
-import NavBar from "./components/layout/SignedInNavBar";
+import NavBar from "./components/layout/NavBar";
 
 const theme = {
   global: {
